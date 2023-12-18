@@ -8,4 +8,4 @@
   * [for...of](undefined/for...of.md)
   * [find](undefined/find.md)
 * [Nest JS](nest-js/README.md)
-  * [Page 1](nest-js/page-1.md)
+  * [Queue](nest-js/queue.md)
