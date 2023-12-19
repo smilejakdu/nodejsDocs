@@ -8,6 +8,33 @@ NestJS에서 제공하는 Queue 시스템을 사용하여 비동기 작업을 �
 
 Queue를 사용하려면, 다음과 같은 단계를 따르는 것이 좋습니다:
 
+### redis 셋팅
+
+로컬에서 설치를 해도 되고 , docker compose 파일을 생성해서 작업해도 된다.
+
+```bash
+version: "3"
+services:
+  watcha-redis:
+    container_name: watcha-redis
+    image: redis:alpine
+    ports:
+      - 6379:6379
+    volumes:
+      - watcha-redis:/data
+    command: redis-server --requirepass foobared
+
+volumes:
+  watcha-redis:
+
+```
+
+이후 `redis-cli -h localhost -p 6379 -a foobared`
+
+리스트 검색 : `keys *`
+
+
+
 1.  **Queue 라이브러리 설치**: NestJS에서는 Bull이라는 라이브러리를 주로 사용합니다. `@nestjs/bull`과 `bull` 패키지를 설치합니다.
 
     ```bash
