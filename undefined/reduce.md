@@ -43,6 +43,10 @@ arr.reduce(function (acc, cur) {
 // 6 4
 // 10 5
 
+const numbers = [1, 2, 3, 4, 5];
+const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+
+console.log(sum); // 출력 결과: 15
 ```
 
 위와 같이 값이 출력된다.

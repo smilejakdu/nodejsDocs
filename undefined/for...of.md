@@ -1,4 +1,18 @@
-# for...of
+# for...of 루프
+
+ES6에서 도입된 `for...of` 구문은 배열의 각 요소에 대해 반복합니다.
+
+`break` , `continue` , `return` 문을 사용할 수 있습니다.
+
+```typescript
+const array = [1, 2, 3, 4, 5];
+for (const item of array) {
+  console.log(item);
+}
+
+```
+
+
 
 JavaScript에서 `for...of` 문은 ES6 (ECMAScript 2015)에서 도입된 반복문으로, 배열이나 문자열과 같은 반복 가능한 객체(iterable objects)를 쉽게 순회할 수 있게 해줍니다. `for...of`는 배열의 요소나 문자열의 문자 등 반복 가능한 객체의 개별 값에 직접 접근할 수 있어, 반복 작업을 간결하고 명확하게 작성할 수 있습니다.
 
