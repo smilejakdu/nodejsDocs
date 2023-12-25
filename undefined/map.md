@@ -48,5 +48,36 @@ let newArray = arr.map(function(element, index, array) {
 
 `map`은 배열의 요소를 변환하거나, 원본 배열을 기반으로 새로운 형태의 데이터를 만들 때 매우 효과적인 메서드입니다.
 
+조건문을 넣어서 구현할 수도 있다.
 
+```javascript
+const people = [
+  { name: "Alice", age: 25 },
+  { name: "Bob", age: 30 },
+  { name: "Carol", age: 35 },
+  { name: "Ash", age: 40 },
+  { name: "Robert", age: 32 },
+  { name: "Summer", age: 37 },
+];
+
+// nams for larger than 30
+const names = people.map((person) => {
+  if (person.age > 30) {
+    return person;
+  }
+});
+
+console.log(names);
+
+// [
+//   undefined,
+//   undefined,
+//   { name: 'Carol', age: 35 },
+//   { name: 'Ash', age: 40 },
+//   { name: 'Robert', age: 32 },
+//   { name: 'Summer', age: 37 }
+// ]
+```
+
+위와 같이 할 수 있지만 , 결과 값이 없을 때는 undefined 를 출력하게 된다 .그래서 이럴경우 filter 를 사용하는것이 더 좋다.
 
