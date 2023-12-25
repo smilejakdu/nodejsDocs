@@ -7,8 +7,6 @@
   * [filter](undefined/filter.md)
   * [for...of 루프](undefined/for...of.md)
   * [find](undefined/find.md)
-  * [map](undefined/map-1.md)
-  * [filter](undefined/filter-1.md)
 * [TypeScript](typescript/README.md)
   * [Page 1](typescript/page-1.md)
 * [Nest JS](nest-js/README.md)
