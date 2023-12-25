@@ -81,3 +81,21 @@ console.log(names);
 
 위와 같이 할 수 있지만 , 결과 값이 없을 때는 undefined 를 출력하게 된다 .그래서 이럴경우 filter 를 사용하는것이 더 좋다.
 
+```javascript
+const people = [
+  { name: "Alice", age: 25 },
+  { name: "Bob", age: 30 },
+  { name: "Carol", age: 35 },
+  { name: "Ash", age: 40 },
+  { name: "Robert", age: 32 },
+  { name: "Summer", age: 37 },
+];
+
+// 나이가 30보다 큰 사람들만 필터링
+const names = people.filter((person) => person.age > 30);
+
+console.log(names);
+console.log(names.length);
+
+```
+
