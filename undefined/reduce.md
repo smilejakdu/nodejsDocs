@@ -63,3 +63,18 @@ console.log(averagePrice); // 출력: 200
 
 ```
 
+reduce 에 조건문을 넣을 수 있습니다.&#x20;
+
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+const sum = numbers.reduce((accumulator, currentValue) => {
+    if (currentValue >= 3) {
+        return accumulator + currentValue;
+    } else {
+        return accumulator;
+    }
+}, 0);
+
+console.log(sum); // 출력 결과: 12
+
+```
