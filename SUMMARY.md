@@ -1,6 +1,7 @@
 # Table of contents
 
 * [nodejsDocs](README.md)
+* [Node 셋팅 & nvm](node-and-nvm.md)
 * [문법](undefined/README.md)
   * [reduce](undefined/reduce.md)
   * [map](undefined/map.md)
