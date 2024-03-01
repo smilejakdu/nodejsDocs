@@ -12,3 +12,5 @@
   * [Page 1](typescript/page-1.md)
 * [Nest JS](nest-js/README.md)
   * [Queue](nest-js/queue.md)
+* [Frontend](frontend/README.md)
+  * [SEO](frontend/seo.md)
