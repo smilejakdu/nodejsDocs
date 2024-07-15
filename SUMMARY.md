@@ -11,6 +11,7 @@
 * [TypeScript](typescript/README.md)
   * [Page 1](typescript/page-1.md)
 * [Nest JS](nest-js/README.md)
+  * [Class Validator](nest-js/class-validator.md)
   * [Queue](nest-js/queue.md)
   * [Pagination](nest-js/pagination/README.md)
     * [offset limit](nest-js/pagination/offset-limit.md)
