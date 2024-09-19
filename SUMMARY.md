@@ -17,6 +17,7 @@
     * [offset limit](nest-js/pagination/offset-limit.md)
     * [skip take](nest-js/pagination/skip-take.md)
     * [no offset](nest-js/pagination/no-offset.md)
+  * [Amazon SES](nest-js/amazon-ses.md)
 * [Frontend](frontend/README.md)
   * [Next 시작하기](frontend/next.md)
   * [SEO](frontend/seo.md)
