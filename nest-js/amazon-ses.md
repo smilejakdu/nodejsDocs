@@ -1,6 +1,6 @@
 # Amazon SES
 
-<figure><img src="../../.gitbook/assets/스크린샷 2024-09-20 오전 1.21.50.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2024-09-20 오전 1.21.50.png" alt=""><figcaption></figcaption></figure>
 
 위 사진처럼 샌드박스 해제를 우선 해야합니다.&#x20;
 
@@ -8,7 +8,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/스크린샷 2024-09-20 오전 1.33.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/스크린샷 2024-09-20 오전 1.33.39.png" alt=""><figcaption></figcaption></figure>
 
 
 
