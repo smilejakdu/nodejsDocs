@@ -63,8 +63,7 @@ for (const item of iterable) {
     // 출력: a: 1, b: 2, c: 3
 
     ```
-4. Object Map 구조 순회:\
-
+4. Object Map 구조 순회:<br>
 
 ```typescript
 const people = [
